@@ -1,0 +1,47 @@
+/* src/index.css */
+.movie-slider {
+  margin-top: 20px;
+}
+
+.card img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #f5c518;
+  border-color: #f5c518;
+}
+
+.btn-primary:hover {
+  background-color: #e5b017;
+  border-color: #e5b017;
+}
+
+.container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* src/index.css */
+.btn-primary.black-text {
+  color: black;
+  background-color: #f5c518;
+  border-color: #f5c518;
+}
+
+.btn-primary.black-text:hover {
+  color: black;
+  background-color: #e5b017;
+  border-color: #e5b017;
+}
