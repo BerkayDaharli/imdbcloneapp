@@ -1,0 +1,10 @@
+runtime: nodejs20
+env: standard
+
+env_variables:
+  MONGO_URI: 'mongodb+srv://postgres:EEEeee123@cluster0.xbp207w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+  JWT_SECRET: 'verysecret'
+
+handlers:
+- url: /.*
+  script: auto
